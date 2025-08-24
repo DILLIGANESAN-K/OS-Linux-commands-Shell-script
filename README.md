@@ -323,6 +323,7 @@ sed -n '2,4{s/^/$/;p}' file23
 
 sed -n '2,4{s/$/*/;p}' file23
 
+![alt text](44.png)
 
 #Sorting File content
 cat > file21
@@ -336,6 +337,7 @@ cat > file21
 sort file21
 ## OUTPUT
 
+![alt text](45.png)
 
 cat > file22
 ```
@@ -349,12 +351,14 @@ cat > file22
 uniq file22
 ## OUTPUT
 
-
+![alt text](46.png)
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+
+![alt text](47.png) 
 
 cat < urllist.txt
 ```
