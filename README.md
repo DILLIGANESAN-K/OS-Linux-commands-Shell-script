@@ -53,14 +53,18 @@ cat < file2
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+
+ ![alt text](3.png)
+
 comm file1 file2
  ## OUTPUT
 
+![alt text](4.png)
  
 diff file1 file2
 ## OUTPUT
 
+![alt text](5.png)
 
 #Filters
 
