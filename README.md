@@ -114,39 +114,40 @@ hello world
 grep Hello newfile 
 ## OUTPUT
 
-
+![alt text](9.png)
 
 grep hello newfile 
 ## OUTPUT
 
-
+![alt text](11.png)
 
 
 grep -v hello newfile 
 ## OUTPUT
 
-
+![alt text](12.png)
 
 cat newfile | grep -i "hello"
 ## OUTPUT
 
-
+![alt text](13.png)
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
 
-
+![alt text](14.png)
 
 
 grep -R ubuntu /etc
 ## OUTPUT
 
-
+![alt text](15.png)
 
 grep -w -n world newfile   
 ## OUTPUT
 
+![alt text](16.png)
 
 cat < newfile 
 ```
