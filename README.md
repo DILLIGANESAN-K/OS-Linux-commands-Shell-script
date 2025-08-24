@@ -535,13 +535,14 @@ fi
 ```
 ##OUTPUT
 
-
+![alt text](63.png)
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
 
+![alt text](62.png)
 
 # check file ownership
 cat < psswdperm.sh 
